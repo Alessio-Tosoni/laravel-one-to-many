@@ -14,7 +14,8 @@ return new class extends Migration
         Schema::table('posts', function (Blueprint $table) {
             // $table->unsignedBigInteger("category_id")->nullable()->after("id");
             // $table->foreign("category_id")->references("id")->on("categories")->nullOnDelete();
-
+            
+            //metodo stringato che riassume i 2 sopra
             $table->foreignId('category_id')->nullable()->after("id")->constrained()->nullOnDelete();
         });
     }

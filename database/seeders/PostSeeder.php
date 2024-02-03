@@ -22,10 +22,12 @@ class PostSeeder extends Seeder
             [
                 'name' => 'progetto 2',
                 'description' => 'descrizione lunga 2',
+                'category_id' => 2
             ],
             [
                 'name' => 'progetto 3',
                 'description' => 'descrizione lunga 3',
+                'category_id' => 1
             ]
         ];
 
