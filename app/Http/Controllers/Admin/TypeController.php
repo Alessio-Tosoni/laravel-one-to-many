@@ -34,9 +34,9 @@ class TypeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Type $type)
+    public function show(string $id)
     {
-        //
+       
     }
 
     /**

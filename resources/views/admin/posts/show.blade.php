@@ -11,7 +11,9 @@
             <p>{{$dettaglio->name}}</p>
            
             <p>{{$dettaglio->description}}</p>
-            </div>
+
+            <p>{{$project->type?->name }}</p>
+        </div>
        
     </div>
 
