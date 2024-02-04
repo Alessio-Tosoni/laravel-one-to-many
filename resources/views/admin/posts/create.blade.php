@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid mt-4">
         <div class="row justify-content-center">
-            <h2>Nuova pasta</h2>
+            <h2>Nuova ppost</h2>
             @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
