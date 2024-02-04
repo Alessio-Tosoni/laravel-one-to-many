@@ -17,17 +17,21 @@ class PostSeeder extends Seeder
             [
                 'name' => 'progetto 1',
                 'description' => 'descrizione lunga',
-                'category_id' => 3
+                'category_id' => 3,
+                'type_id' => 1
+                
             ],
             [
                 'name' => 'progetto 2',
                 'description' => 'descrizione lunga 2',
-                'category_id' => 2
+                'category_id' => 2,
+                'type_id' => 2
             ],
             [
                 'name' => 'progetto 3',
                 'description' => 'descrizione lunga 3',
-                'category_id' => 1
+                'category_id' => 1,
+                'type_id' => 3
             ]
         ];
 
